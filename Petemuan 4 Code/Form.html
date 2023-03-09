@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survei Orang Famous</title>
+</head>
+
+<style>
+    fieldset {
+        width: 85%;
+        background-color: rgb(58, 4, 4);
+    }
+</style>
+
+<body style="background-color: rgb(17, 6, 6);">
+    <p>
+        <center>
+        <img src="../data/banner.png" align="middle" width="95%">
+        
+            <h1 style="color: rgb(255, 255, 255);">
+                Survei : Apakah Anda Kenal Orang Ini?
+            </h1>
+            <iframe 
+                allow="fullscreen" 
+                frameBorder="0" 
+                src="https://giphy.com/embed/AyYIXWiekT79rV8rQr/video" 
+                width="280"
+                height="210"
+                >
+            </iframe>
+        </center>
+        <br>
+        <hr width="80%">
+        <div style="color: white; padding-left: 10%;">
+            <fieldset>
+                <legend>
+                    Identitas Diri
+                </legend>
+            <form action="">
+                <br>
+                <table>
+                    <tr>
+                        <td>
+                            <label for="fname" >Nama Depan </label>
+                        </td>
+                        <td>
+                            <input type="text" value="Rick"> <br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="lname">Nama Belakang </label>
+                        </td>
+                        
+                        <td>
+                            <input type="text" value="Astley"> <br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="password"></label>Secret Number</td>
+                        <td><input type="password"></td>
+                        
+                    </tr>
+                    
+                </table>
+                Kelamin Anda 
+                <select name="Jenis Kelamin" id="">
+                    <optgroup label="Binary">
+                        <option value="L">Laki-Laki</option>
+                        <option value="P">Perempuan</option>
+                    </optgroup>
+                    <optgroup label="Unusual">
+                        <option value="DA">Kuda</option>
+                        <option value="WB">Walmart Bag</option>
+                    </optgroup>
+                    <option hidden value selected="None">--Nona--</option>
+                    <option value="NA">Memilih Tidak Menyebutkan</option>
+
+                </select> <br>
+                <small>*Kode Secret Number Anda tidak akan disalahgunakan</small>
+                <br> 
+                <br>
+                <input type="checkbox" name="Pernyataan" id=""> Dengan ini saya menyatakan bahwa data diatas adalah benar
+            </fieldset>
+                <h2>Quiz : Give Me Your Answer</h2>
+                <fieldset>
+                    <br>
+                    <label for="datetime"><big>Tanggal Berapa Orang Tersebut Lahir?</label> <br>
+                    <input type="datetime-local" name="" id=""> <br> <br>
+                    <label for="">Apa yang sering di ucapkan?</label> <br>
+                    <input type="radio" name="Apa yang sering di ucapkan" value="'A" id=""> <small>Never Gonna Give</small> <br>
+                    <input type="radio" name="Apa yang sering di ucapkan" value="B" id=""> <small>Never Gonna Gave</small> <br>
+                    <input type="radio" name="Apa yang sering di ucapkan" value="C" id=""> <small>Never Gonna up</small> <br>
+                    <input type="radio" name="Apa yang sering di ucapkan" value="D" id=""> <small>Never Gonna Give U Up</small> <br> <br>
+                    <label for="">Apa yang diucapkannya?</label> <br>
+                    <input type="checkbox" name="" id=""> <small> Never </small> 
+                    <input type="checkbox" name="" id=""> <small> Gonna </small>
+                    <input type="checkbox" name="" id=""> <small> Up </small>
+                    <input type="checkbox" name="" id=""> <small> You </small>
+                    <input type="checkbox" name="" id=""> <small> Down </small>
+                    <input type="checkbox" name="" id=""> <small> Desert </small> <br>
+                    <input type="checkbox" name="" id=""> <small> Each </small> 
+                    <input type="checkbox" name="" id=""> <small> Other </small>
+                    <input type="checkbox" name="" id=""> <small> Afterall </small>
+                    <input type="checkbox" name="" id=""> <small> Rule </small>
+                    <input type="checkbox" name="" id=""> <small> Do </small> <br><br>
+                    
+                    <label for="Lirik"></label> Tuliskan Puisi <br>
+                    <textarea name="Lirik" id="" cols="150%" rows="10">
+Never gonna make you cry
+Never gonna say goodbye
+Never gonna tell a lie and hurt you
+                    </textarea> <br>
+
+                    <input type="reset" value="Reset">
+            </form> <br> <br>
+
+            <center>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+                    <button>Click This</button>
+                </a>
+            </center>
+            
+        </fieldset>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Kotak Saran</legend>
+            <form action="@" method="post">
+                <center>
+                    <br>
+                    <textarea name="Komentar"  cols="150%" rows="10"> Web Site Ini Bagus</textarea>
+                    <br>
+                    <input type="submit" value="Send">
+                <input type="reset" value="Reset">
+                </center>
+                
+
+            </form>
+        </fieldset>
+        </div>
+
+        
+    </p>
+</body>
+</html>
