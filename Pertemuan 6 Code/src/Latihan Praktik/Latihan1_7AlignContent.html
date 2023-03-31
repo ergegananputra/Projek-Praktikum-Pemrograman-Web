@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pertemuan 1 Latihan 7 AlignContent</title>
+
+    <style type="text/css">
+        .container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            
+        }
+
+        .container .fs{
+            display: inherit;
+            flex-flow: inherit;
+
+            align-items: flex-start;
+            align-content: flex-start;
+        }
+
+        .container .fe{
+            display: inherit;
+            flex-flow: inherit;
+
+            align-items: flex-end;
+            align-content: flex-end;
+        }
+
+        .container .center{
+            display: inherit;
+            flex-flow: inherit;
+
+            align-items: center;
+            align-content: center;
+        }
+
+
+        .container .stretch{
+            display: inherit;
+            flex-flow: inherit;
+
+            align-items: stretch;
+            align-content: stretch;
+        }
+
+        .container .space-between{
+            display: inherit;
+            flex-flow: inherit;
+
+            align-content: space-between;
+        }
+
+        .container .space-around{
+            display: inherit;
+            flex-flow: inherit;
+
+            align-content: space-around;
+        }
+
+
+        div p {
+            background-color: brown;
+            padding: 30px;
+            margin: 30px;
+            color: white;
+        }
+
+        div .p1 {
+            background-color: brown;
+            padding: 50px 30px 80px 30px;
+            margin: 30px;
+            color: white;
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1>no justify-content</h1>
+    <div class="container">
+        <p class="p1">Tes 1</p><p>Tes 2</p><p class="p1">Tes 3</p><p>Tes 4</p>
+        <p>Tes 1</p><p>Tes 2</p><p>Tes 3</p><p>Tes 4</p>
+    </div>
+
+    <h1>justify-content </h1>
+    <br>
+    <h2> flex-start</h2>
+    <div class="container">
+        <div class="fs">
+            <p class="p1">Tes 1</p><p>Tes 2</p><p class="p1">Tes 3</p><p>Tes 4</p>
+            <p>Tes 1</p><p>Tes 2</p><p>Tes 3</p><p>Tes 4</p>
+        </div>
+    </div>
+
+    <h2> flex-start</h2>
+    <div class="container">
+        <div class="fe">
+            <p class="p1">Tes 1</p><p>Tes 2</p><p class="p1">Tes 3</p><p>Tes 4</p>
+            <p>Tes 1</p><p>Tes 2</p><p>Tes 3</p><p>Tes 4</p>
+        </div>
+    </div>
+
+    <h2>center</h2>
+    <div class="container">
+        <div class="center">
+            <p class="p1">Tes 1</p><p>Tes 2</p><p class="p1">Tes 3</p><p>Tes 4</p>
+            <p>Tes 1</p><p>Tes 2</p><p>Tes 3</p><p>Tes 4</p>
+        </div>
+    </div>
+
+    <h2>strectch</h2>
+    <div class="container">
+        <div class="stretch">
+            <p class="p1">Tes 1</p><p>Tes 2</p><p class="p1">Tes 3</p><p>Tes 4</p>
+            <p>Tes 1</p><p>Tes 2</p><p>Tes 3</p><p>Tes 4</p>    
+        </div>
+    </div>
+
+    <h2>space between</h2>
+    <div class="container">
+        <div class="space-between">
+            <p class="p1">Tes 1</p><p>Tes 2</p><p class="p1">Tes 3</p><p>Tes 4</p>
+            <p>Tes 1</p><p>Tes 2</p><p>Tes 3</p><p>Tes 4</p>    
+        </div>
+    </div>
+
+    <h2>space arround</h2>
+    <div class="container">
+        <div class="space-arround">
+            <p class="p1">Tes 1</p><p>Tes 2</p><p class="p1">Tes 3</p><p>Tes 4</p>
+            <p>Tes 1</p><p>Tes 2</p><p>Tes 3</p><p>Tes 4</p>    
+        </div>
+    </div>
+    
+    
+
+</body>
+</html>

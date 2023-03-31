@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pertemuan 6 Latihan 1 Flex Wrap</title>
+
+    <style type="text/css">
+        .containerRow {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+        }
+
+        .containerRowWrap {
+            display: flex;
+            flex-direction: row-reverse;
+            flex-wrap: wrap;
+        }
+
+        .containerRowWrapReversed {
+            display: flex;
+            flex-direction: row-reverse;
+            flex-wrap: wrap-reverse;
+        }
+
+        
+
+
+        div p {
+            background-color: brown;
+            padding: 30px;
+            margin: 30px;
+            color: white;
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1>no wrap</h1>
+    <div class="containerRow">
+        <p>Tes 1</p><p>Tes 2</p><p>Tes 3</p><p>Tes 4</p>
+        <p>Tes 1</p><p>Tes 2</p><p>Tes 3</p><p>Tes 4</p>
+    </div>
+
+    <h1>wrap</h1>
+    <div class="containerRowWrap">
+        <p>Tes 1</p><p>Tes 2</p><p>Tes 3</p><p>Tes 4</p>
+        <p>Tes 5</p><p>Tes 6</p><p>Tes 7</p><p>Tes 8</p>
+    </div>
+
+    <h1>wrap</h1>
+    <div class="containerRowWrapReversed">
+        <p>Tes 1</p><p>Tes 2</p><p>Tes 3</p><p>Tes 4</p>
+        <p>Tes 5</p><p>Tes 6</p><p>Tes 7</p><p>Tes 8</p>
+    </div>
+
+</body>
+</html>
